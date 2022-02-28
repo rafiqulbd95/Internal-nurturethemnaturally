@@ -1,0 +1,366 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575.98px) { 
+    
+ 
+    h1 {
+        font-size: 60px;
+        line-height: 50px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .pb-150 {
+        padding-bottom: 40px;
+    }
+    .pt-150 {
+        padding-top: 40px;
+    }
+    .pb-100 {
+        padding-bottom: 40px;
+    }
+    .pt-120 {
+        padding-top: 40px;
+    }
+    .pb-130 {
+        padding-bottom: 40px;
+    }
+    h4 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 35px;
+    }
+    .section-title h2 {
+        padding-bottom: 20px;
+    }
+    .navbar-dark .navbar-brand {
+        width: 70%;
+    }
+    .navbar-toggler {
+        position: absolute;
+        right: 50px;
+    }
+    .bsnav-mobile .navbar {
+        margin: 85px 0 0px;
+        padding: 0;
+    }
+    .login {
+        display: none;
+    }
+    .sign-up {
+        display: none;
+    }
+    .hero-area {
+        padding: 130px 0 40px;
+    }
+    .about-area .btn {
+        margin-top: 20px;
+    }
+    .testimonial-item {
+        padding-top: 30px;
+    }
+    .testimonial-area .btn {
+        margin-top: 50px;
+        width: 300px;
+        letter-spacing: 1px;
+    } 
+    .project-area .section-title {
+        text-align: center;
+    } 
+    .project-area p br {
+        display: none;
+    }  
+    .project-area .section-title h2 {
+        padding-bottom: 40px;
+    }
+    .project-area .btn:nth-last-child(1) {
+        margin-left: 0;
+    }
+    .store-bg {
+        width: 100%;
+    }
+    .raw-bg {
+        width: 100%;
+    }
+    .raw-store-area .section-title {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+    .store-text {
+        padding-left: 0px !important;
+    }
+    .raw-store-area .section-title p {
+        padding: 15px 0;
+    }
+    .footer-text ul li {
+        padding-right: 30px;
+    }
+    .footer-widget {
+        grid-template-columns: auto auto;
+        padding-left: 15px;
+    }
+    .footer-menu {
+        margin-top: 30px;
+    }
+    .copyright-text-left p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .copyright-text-right p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .about-hero-area {
+        padding: 200px 0 100px !important;
+    }
+    .single-product-bg img {
+        display: none;
+    }
+    .product-area .btn {
+        margin-top: 34px;
+    }
+    .services-item {
+        padding-bottom: 30px;
+    }
+    .login {
+        display: none;
+    }
+    .sign-up {
+        display: none;
+    }
+    li.nav-item {
+        position: relative;
+        padding: 10px 5px;
+    }
+    #NavMenu ul li:after {
+        top: 20px;
+        right: 40px;
+    }
+    .navbar-toggler {
+        position: absolute;
+        right: 32px;
+    }
+    .raw-store-area {
+        text-align: center;
+    }
+    .store-bg {
+        width: 100%;
+        height: 50%;
+        top: unset;
+        bottom: 0;
+    }
+    .raw-bg {
+        width: 100%;
+        height: 50%;
+    }
+    .raw-store-area .section-title {
+        padding-bottom: 50px;
+    }
+    .raw-store-area .btn {
+        margin-top: 20px;
+    }
+    section.about-area .section-title {
+        text-align: center;
+    }
+    
+    
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    
+    .bsnav-mobile .navbar {
+        margin: 85px 0 0px;
+        padding: 0;
+    }
+    .single-product-bg img {
+        display: none;
+    }
+    .login {
+        display: none;
+    }
+    .sign-up {
+        display: none;
+    }
+    .navbar-toggler {
+        position: absolute;
+        right: 100px;
+    }
+    .services-item {
+        padding-bottom: 40px;
+    }
+    
+    .bsnav-mobile .navbar {
+        margin: 76px 0 15px;
+        padding: 0;
+        width: 300px;
+    }
+    .raw-store-area .section-title {
+        padding-left: 0;
+    }
+    .raw-store-area {
+        background:#5D983A;
+        text-align: center;
+    }
+    .raw-store-area .btn {
+        margin-top: 20px;
+    }
+    .project-area .section-title {
+        text-align: center;
+    }
+    .project-area p br {
+        display: none;
+    }
+    section.about-area .section-title {
+        text-align: center;
+    }
+    
+    .store-text {
+        padding: 0 !important;
+        margin-top: 40px;
+    }
+    .copyright-area {
+        padding-top: 60px;
+        text-align: center;
+    }
+    .copyright-text-right {
+        text-align: center;
+    }
+    li.nav-item {
+        position: relative;
+        padding: 10px 5px;
+    }
+    #NavMenu ul li:after {
+        content: "\f078";
+        font-family: "Font Awesome 5 free";
+        font-weight: 900;
+        position: absolute;
+        top: 20px;
+        right: 0px;
+    }
+    .raw-store-area {
+        text-align: center;
+    }
+    .store-bg {
+        width: 100%;
+        height: 50%;
+        top: unset;
+        bottom: 0;
+    }
+    .raw-bg {
+        width: 100%;
+        height: 50%;
+    }
+    .raw-store-area .section-title {
+        padding-bottom: 50px;
+    }
+    .project-area .section-title {
+        text-align: center;
+    }
+   
+ }
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+    .bsnav-mobile .navbar {
+        margin: 85px 0 0px;
+        padding: 0;
+    }
+    #NavMenu ul li:after {
+        top: 20px;
+        right: 40px;
+    }
+    li.nav-item {
+        position: relative;
+        padding: 10px 5px;
+    }
+    .navbar-expand-md .navbar-toggler {
+        display: block;
+    }
+    .login {
+        display: none;
+    }
+    .sign-up {
+        display: none;
+    }
+    .single-product-bg img {
+        display: none;
+    }
+
+    .hero-area {
+        padding: 200px 0 100px !important;
+    }
+    .section-title h4 {
+        float: none;
+    }
+    .testimonial-item {
+        padding-top: 30px;
+    }
+    .raw-store-area .section-title {
+        padding-left: 0;
+    }
+    
+    .store-text {
+        padding-left: 10px !important;
+    }
+    h2 {
+        font-size: 60px;
+    }
+    .project-area .section-title h2 {
+        padding-bottom: 40px;
+    }
+    .pb-150 {
+        padding-bottom: 60px;
+    }
+    
+    .pt-150 {
+        padding-top: 80px;
+    }
+    .footer-widget {
+        padding-top: 50px;
+    }
+    .copyright-text-left p {
+        text-align: center;
+    }
+    .copyright-text-right p {
+        text-align: center;
+    }
+    .services-item {
+        padding-bottom: 30px;
+    }
+    .about-hero-area {
+        padding: 250px 0 100px;
+    }
+    #NavMenu ul li:after {
+        top: 20px;
+    }
+    .navbar-toggler {
+        margin-right: 40px;
+    }
+    
+
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    h3 {
+        font-size: 38px;
+    }
+    .navbar-nav .nav-link {
+        padding: 20px 5px !important;
+    }
+    #NavMenu ul li a {
+        font-size: 20px;
+    }
+    .nav-item {
+        padding: 15px 0px;
+    }
+    #NavMenu ul li:after {
+        top: 42px;
+        right: -4px;
+    }
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
